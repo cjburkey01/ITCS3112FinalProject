@@ -38,7 +38,13 @@ public class CJsSchedules {
                     System.err.println("Unknown command");
                 }
 
-                System.out.print(PROMPT);
+                // Print the prompt
+                if (scheduleHandler.getCurrentSchedule().isPresent()) {
+                    // Include the currently selected course if one is selected
+                    System.out.printf("%s %s", scheduleHandler.getCurrentSchedule().get().name, PROMPT);
+                } else {
+                    System.out.print(PROMPT);
+                }
             }
         }
     }
