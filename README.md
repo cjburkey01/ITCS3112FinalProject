@@ -2,6 +2,10 @@
 
 ITCS-3112 Final Project
 
+### Download
+
+The pre-built jar file may be downloaded from [the releases page](https://github.com/cjburkey01/ITCS3112FinalProject/releases/tag/v1.0.0).
+
 ### Build & Run
 
 > Note: For the following commands, replace `gradlew` with `./gradlew` when on Mac or Linux.
