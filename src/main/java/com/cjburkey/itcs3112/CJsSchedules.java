@@ -19,6 +19,8 @@ public class CJsSchedules {
      */
     public void start() {
         System.out.println("Welcome to CJ's Schedule System!");
+        System.out.println("Please type commands below and press enter to execute them.");
+        System.out.println("Use the `help` command to see a list of commands.");
         System.out.print(PROMPT);
 
         // Auto-close try blocks for the win

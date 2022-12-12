@@ -25,6 +25,8 @@ public final class CmdsImpl {
         @Override
         public void execute(String[] args) {
             System.out.println("Global commands:");
+            System.out.println("  exit");
+            System.out.println("    Description: Exits the application");
             scheduleHandler.scheduleCommands.getCommands().forEach(CmdHelp::printCmd);
 
             System.out.println();

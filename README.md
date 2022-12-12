@@ -13,9 +13,9 @@ ITCS-3112 Final Project
 ### Example Usage
 
 ```
-add-course ITCS-3112
-select-course ITCS-3112
-add-item FinalProject 2022-12-11
-show
-exit
+>> add-course ITCS-3112
+ITCS-3112 >> add-item FinalProject 2022-12-11
+>> select-course
+>> show
+>> exit
 ```
